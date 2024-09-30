@@ -1,0 +1,12 @@
+/* Same styling as before with a minor addition */
+.restaurant-item {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .restaurant-item:hover {
+    background-color: #e9e9e9;
+  }

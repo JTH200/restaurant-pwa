@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NYC Restaurant Rating Finder">
+  <title>NYC Restaurant Rating Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="app">
+    <h1>NYC Restaurant Rating Finder</h1>
+    
+    <div>
+      <label for="restaurant">Restaurant Name (partial):</label>
+      <input type="text" id="restaurant" placeholder="Enter restaurant name" />
+    </div>
+    
+    <div>
+      <label for="borough">Borough:</label>
+      <select id="borough">
+        <option value="Manhattan">Manhattan</option>
+        <option value="Brooklyn">Brooklyn</option>
+        <option value="Bronx">Bronx</option>
+        <option value="Queens">Queens</option>
+        <option value="Staten Island">Staten Island</option>
+      </select>
+    </div>
+
+    <button id="search">Search Restaurants</button>
+
+    <div id="restaurant-list"></div>
+    
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
